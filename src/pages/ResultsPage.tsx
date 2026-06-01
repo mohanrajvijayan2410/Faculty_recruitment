@@ -43,8 +43,8 @@ export default function ResultsPage() {
 
   const scores = [
     { label: 'Resume Analysis', value: c.resumeScore, weight: '30%' },
-    { label: 'Technical Assessment', value: c.technicalScore, weight: '50%' },
-    { label: 'Psychometric Evaluation', value: c.psychometricScore, weight: '20%' },
+    { label: 'Technical Assessment', value: c.technicalScore, weight: '40%' },
+    { label: 'Psychometric Evaluation', value: c.psychometricScore, weight: '30%' },
   ];
 
   return (
@@ -102,7 +102,7 @@ export default function ResultsPage() {
               )}
             </div>
             <p className="mt-2 text-sm text-muted-foreground">
-              Formula: (Resume × 0.30) + (Technical × 0.50) + (Psychometric × 0.20)
+              Formula: (Resume x 0.30) + (Technical x 0.40) + (Psychometric x 0.30)
             </p>
           </motion.div>
 

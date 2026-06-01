@@ -63,8 +63,8 @@ export function generateResultPDF(data: ResultData) {
 
   const scores = [
     ['Resume Analysis Score (30%)', `${data.resumeScore}/100`],
-    ['Technical Assessment Score (50%)', `${data.technicalScore}/100`],
-    ['Psychometric Evaluation Score (20%)', `${data.psychometricScore}/100`],
+    ['Technical Assessment Score (40%)', `${data.technicalScore}/100`],
+    ['Psychometric Evaluation Score (30%)', `${data.psychometricScore}/100`],
   ];
 
   doc.setFontSize(11);

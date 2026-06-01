@@ -155,6 +155,8 @@ export interface PsychometricQuestion {
   id: number;
   question: string;
   category: string;
+  options?: string[];
+  correct?: number;
 }
 
 export const psychometricQuestions: PsychometricQuestion[] = [
@@ -181,10 +183,14 @@ export const psychometricQuestions: PsychometricQuestion[] = [
 ];
 
 export const jobOpenings = [
-  { id: 1, department: "Computer Science", qualification: "Ph.D. in Computer Science or related field", experience: "3+ years teaching experience", skills: ["programming", "algorithms", "data structures", "machine learning", "python", "java"] },
-  { id: 2, department: "Information Technology", qualification: "Ph.D./M.Tech in IT or related field", experience: "2+ years teaching experience", skills: ["web development", "networking", "database", "cloud computing", "security", "javascript"] },
-  { id: 3, department: "Electronics & Communication", qualification: "Ph.D. in ECE or related field", experience: "3+ years teaching experience", skills: ["signal processing", "vlsi", "embedded systems", "communication", "circuits", "microprocessor"] },
-  { id: 4, department: "Mechanical Engineering", qualification: "Ph.D. in Mechanical Engineering", experience: "5+ years teaching experience", skills: ["thermodynamics", "fluid mechanics", "manufacturing", "cad", "materials", "design"] },
-  { id: 5, department: "Mathematics", qualification: "Ph.D. in Mathematics", experience: "2+ years teaching experience", skills: ["calculus", "linear algebra", "statistics", "probability", "discrete mathematics", "numerical methods"] },
-  { id: 6, department: "Artificial Intelligence & ML", qualification: "Ph.D. in AI/ML or related field", experience: "2+ years research experience", skills: ["deep learning", "neural networks", "nlp", "computer vision", "tensorflow", "pytorch"] },
+  { id: 1, department: "Artificial Intelligence & Data Science", qualification: "Ph.D./M.Tech in AI, Data Science, or related field", experience: "2+ years teaching or research experience", skills: ["machine learning", "data science", "deep learning", "python", "analytics", "ai ethics"] },
+  { id: 2, department: "Electronics & Communication", qualification: "Ph.D./M.Tech in ECE or related field", experience: "3+ years teaching experience", skills: ["signal processing", "vlsi", "embedded systems", "communication", "circuits", "microprocessor"] },
+  { id: 3, department: "Information Technology", qualification: "Ph.D./M.Tech in IT or related field", experience: "2+ years teaching experience", skills: ["web development", "networking", "database", "cloud computing", "security", "javascript"] },
+  { id: 4, department: "Computer Science", qualification: "Ph.D./M.Tech in Computer Science or related field", experience: "3+ years teaching experience", skills: ["programming", "algorithms", "data structures", "machine learning", "python", "java"] },
+  { id: 5, department: "Electrical & Electronics Engineering", qualification: "Ph.D./M.Tech in EEE or related field", experience: "3+ years teaching experience", skills: ["power systems", "electrical machines", "control systems", "circuits", "renewable energy", "measurements"] },
+  { id: 6, department: "Mechanical Engineering", qualification: "Ph.D./M.Tech in Mechanical Engineering", experience: "3+ years teaching experience", skills: ["thermodynamics", "fluid mechanics", "manufacturing", "cad", "materials", "design"] },
+  { id: 7, department: "Civil Engineering", qualification: "Ph.D./M.Tech in Civil Engineering", experience: "3+ years teaching experience", skills: ["structural engineering", "surveying", "geotechnical", "transportation", "construction", "environmental engineering"] },
+  { id: 8, department: "Chemistry", qualification: "Ph.D./M.Sc. in Chemistry or related field", experience: "2+ years teaching experience", skills: ["organic chemistry", "inorganic chemistry", "physical chemistry", "lab instruction", "materials", "research"] },
+  { id: 9, department: "Mathematics", qualification: "Ph.D./M.Sc. in Mathematics", experience: "2+ years teaching experience", skills: ["calculus", "linear algebra", "statistics", "probability", "discrete mathematics", "numerical methods"] },
+  { id: 10, department: "Physics", qualification: "Ph.D./M.Sc. in Physics or related field", experience: "2+ years teaching experience", skills: ["mechanics", "electromagnetism", "quantum physics", "optics", "lab instruction", "research"] },
 ];
