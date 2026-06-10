@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Spreadsheet lock files (Excel, LibreOffice)
+~$*
+.~lock*
