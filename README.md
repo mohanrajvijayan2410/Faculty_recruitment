@@ -6,9 +6,9 @@ AI-enabled faculty recruitment platform for automated resume evaluation, technic
 https://drive.google.com/drive/folders/1ce5eOycBV3gvPSAyXLM8hvEdEAUD2Qmn?usp=sharing
 
 ## Psychometric and technical question
-https://drive.google.com/drive/folders/1ce5eOycBV3gvPSAyXLM8hvEdEAUD2Qmn?usp=sharing
+https://drive.google.com/file/d/1V-no3op5KKuKwekg46dosy44aO8uC6Ot/view?usp=sharing
 
-https://drive.google.com/drive/folders/1ce5eOycBV3gvPSAyXLM8hvEdEAUD2Qmn?usp=sharing
+https://docs.google.com/spreadsheets/d/1G6a6SJgLDzLPdkw8Z3VzvaxDUWzOZ_9A/edit?usp=sharing&ouid=107113917061979164833&rtpof=true&sd=true
 
 ## Project Overview
 
@@ -24,7 +24,7 @@ Technically, the application is a React + Vite front-end that leverages local br
 
 ## Project Features
 
-- AI Resume Analysis
+- **AI Resume Analysis**
   - Extracts text from uploaded PDF resumes.
   - Detects relevant skills and computes a resume-fit score.
   - Highlights missing skill categories for improvement.
