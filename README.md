@@ -193,6 +193,12 @@ Technically, the application is a React + Vite front-end that leverages local br
 
 ---
 
+## Sample Video
+
+https://drive.google.com/file/d/1Kjc71bvCJIMp842jGN7ySobfOKDh7LKv/view?usp=sharing
+
+---
+
 ## Project Workflow
 
 1. User accesses the application through the browser.
