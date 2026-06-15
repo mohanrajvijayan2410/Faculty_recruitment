@@ -6,7 +6,7 @@ AI-enabled faculty recruitment platform for automated resume evaluation, technic
 https://drive.google.com/drive/folders/1ce5eOycBV3gvPSAyXLM8hvEdEAUD2Qmn?usp=sharing
 
 ## Psychometric and technical question
-https://drive.google.com/file/d/1V-no3op5KKuKwekg46dosy44aO8uC6Ot/view?usp=sharing
+https://docs.google.com/spreadsheets/d/1awODGC7HHvRcsP8ZV2sbj5Ki363UA1i1/edit?usp=sharing&ouid=102664418869510839959&rtpof=true&sd=true
 
 https://docs.google.com/spreadsheets/d/1G6a6SJgLDzLPdkw8Z3VzvaxDUWzOZ_9A/edit?usp=sharing&ouid=107113917061979164833&rtpof=true&sd=true
 
