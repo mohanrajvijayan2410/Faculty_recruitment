@@ -126,6 +126,8 @@ Build an end-to-end digital recruitment workflow for faculty hiring.
 
 ## Architecture Flow
 
+```
+
 [ User Browser ] 
       |
       v
@@ -147,6 +149,7 @@ Build an end-to-end digital recruitment workflow for faculty hiring.
       v
 [ Admin Dashboard Visualization ]
 
+```
 ------------------------------------------------------------------------
 
 # Sample Video
