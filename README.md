@@ -151,50 +151,67 @@ https://drive.google.com/file/d/1Kjc71bvCJIMp842jGN7ySobfOKDh7LKv/view?usp=shari
 
 # Project Workflow
 
-1.  Candidate submits details and resume.
-2.  Resume text is extracted and analyzed.
-3.  Skill matching and scoring are performed.
-4.  Candidate completes technical assessment.
-5.  Candidate completes psychometric evaluation.
-6.  Final score and recommendation are generated.
-7.  Admin reviews candidate analytics.
+1. User accesses the application through the browser.
+2. User selects “Apply” and completes profile + resume upload.
+3. The app validates the PDF, extracts text, and analyzes the resume.
+4. Resume scoring is processed against department-specific skills.
+5. The candidate proceeds to the technical assessment.
+6. The system loads questions from Excel and auto-grades answers.
+7. The candidate completes psychometric questions from CSV.
+8. Final score is calculated, recommendation is determined, and results are shown.
 
 ------------------------------------------------------------------------
 
 # Module Description
 
 ## Home Page
-
--   Provides project introduction and navigation.
+- **Purpose:** Marketing and introduction page.
+- **Features:** Hero section, feature cards, workflow summary, CTA buttons.
+- **Workflow:** Directs candidates to career listings and application form.
+- **Input:** None.
+- **Output:** Navigation to candidate flows.
 
 ## Apply Page
-
--   Collects candidate details and resume.
--   Creates candidate record.
+- **Purpose:** Candidate onboarding and resume submission.
+- **Features:** Form fields, department selection, PDF upload.
+- **Workflow:** Collects candidate details, extracts resume text, sets current candidate state.
+- **Input:** Name, email, phone, department, resume PDF.
+- **Output:** `currentCandidate` object and resume analysis route transition.
 
 ## Resume Analysis Page
-
--   Displays resume score, skills, and missing skills.
+- **Purpose:** Display AI resume evaluation.
+- **Features:** Resume score, detected skills, missing skills, category breakdown.
+- **Workflow:** Reads `currentCandidate.resumeAnalysis`, shows results, advances candidate.
+- **Input:** Resume analysis data from `analyzeResume`.
+- **Output:** Candidate progress to technical assessment.
 
 ## Technical Test Page
-
--   Runs department-specific assessments.
+- **Purpose:** Department-specific exam module.
+- **Features:** Subject selection, timed questions, answer tracking, auto submission.
+- **Workflow:** Loads Excel-based questions, runs timed sections, calculates technical score.
+- **Input:** Selected subjects, candidate answers.
+- **Output:** Technical score and updated candidate state.
 
 ## Psychometric Test Page
-
--   Evaluates candidate behavioral profile.
+- **Purpose:** Behavioral and mindset measurement.
+- **Features:** CSV question loading, progress tracking, option selection.
+- **Workflow:** Presents psychometric questions, scores responses, computes final recommendation.
+- **Input:** Candidate answers to psychometric questions.
+- **Output:** Final candidate score and recommendation.
 
 ## Results Page
+- **Purpose:** Final evaluation summary and report generation.
+- **Features:** Score cards, final score breakdown, PDF download.
+- **Workflow:** Reads completed candidate state and bundles results for presentation.
+- **Input:** Candidate scores from prior assessments.
+- **Output:** Downloadable PDF report.
 
--   Shows final evaluation and PDF report.
-
-## Admin Login Page
-
--   Provides admin authentication.
-
-## Admin Page
-
--   Displays candidate rankings and analytics.
+### Admin Page
+- **Purpose:** Recruitment analytics and candidate history.
+- **Features:** Candidate rankings, bar chart, pie chart, KPIs, clear history.
+- **Workflow:** Reads stored candidate history and presents aggregated metrics.
+- **Input:** `candidates` from localStorage.
+- **Output:** Data visualizations and administrative insights.
 
 ------------------------------------------------------------------------
 
@@ -411,12 +428,13 @@ The repository includes candidate evaluation reports and comparison visuals for 
 
 # Future Enhancements
 
-1.  Backend database integration.
-2.  Secure authentication.
-3.  Real AI semantic resume matching.
-4.  Email notifications.
-5.  Interview scheduling.
-6.  Advanced analytics.
+1. Future Scope and Recommendations
+2. Integrate Explainable AI (XAI) to improve transparency in candidate evaluation.
+3. Extend the system with multimodal analysis (video and speech) for interview assessment.
+4. Deploy using cloud-based infrastructure for scalable and real-time recruitment.
+5. Expand to cross-domain recruitment beyond academic institutions.
+6. Enhance performance using advanced models and larger datasets.
+7. Implement bias detection and fairness mechanisms for ethical recruitment
 
 ------------------------------------------------------------------------
 
@@ -451,18 +469,6 @@ Supported platforms:
 
 
 
-## System Requirements
-
-### Hardware
-- Processor: Dual-core CPU
-- RAM: 4 GB minimum
-- Storage: 200 MB free disk space
-
-### Software
-- Operating System: Windows, macOS, Linux
-- Node.js: v18+ recommended
-- Browser: Latest Chrome, Edge, Firefox, Safari
-- No database server required for frontend-only mode
 
 
 ------------------------------------------------------------------------
