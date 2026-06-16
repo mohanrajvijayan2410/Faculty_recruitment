@@ -90,15 +90,6 @@ Build an end-to-end digital recruitment workflow for faculty hiring.
 
 # Technologies Used
 
-## Frontend
-
--   React 18
--   Vite
--   React Router DOM
--   Tailwind CSS
--   Framer Motion
--   Radix UI
-
 ## Software Tools
 - Python – Core backend development
 - Flask – Web framework for routing & application logic
