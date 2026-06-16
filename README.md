@@ -495,28 +495,4 @@ Supported platforms:
 
 ------------------------------------------------------------------------
 
-# Authors
 
-FacultyAI Team
-
-------------------------------------------------------------------------
-
-# License
-
-MIT License
-
-
-------------------------------------------------------------------------
-
-# Acknowledgements
-
--   React
--   Vite
--   Tailwind CSS
--   Radix UI
--   Framer Motion
--   Recharts
--   jsPDF
--   pdfjs-dist
--   PapaParse
--   xlsx
