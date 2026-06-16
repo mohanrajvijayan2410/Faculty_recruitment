@@ -99,21 +99,21 @@ Build an end-to-end digital recruitment workflow for faculty hiring.
 -   Framer Motion
 -   Radix UI
 
-## AI/ML Technologies
+## Software Tools
+- Python – Core backend development
+- Flask – Web framework for routing & application logic
+- Google Gemini API – AI-based resume evaluation & scoring
+ -PyPDF2 – Resume parsing (PDF)
+- SQLite – Database for candidate data & analytics
+- Pandas – Data handling & question upload via Excel
+- HTML/CSS – Frontend UI rendering
 
--   pdfjs-dist for PDF extraction.
--   Skill matching and scoring algorithm.
--   Department-based evaluation.
-
-## Additional Libraries
-
--   jsPDF
--   papaparse
--   xlsx
--   recharts
--   react-hook-form
--   lucide-react
-
+## Hardware Tools
+- CPU (i5 / Ryzen 5 or above) – Handles backend processing & AI calls
+- RAM (8–16 GB) – Supports multiple candidate evaluations
+- Storage (SSD 256 GB+) – Stores resumes & database
+- Internet Connection – Required for Gemini API & web access
+  
 ## Database
 
 -   Browser localStorage for candidate persistence.
