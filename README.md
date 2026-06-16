@@ -420,10 +420,15 @@ The repository includes candidate evaluation reports and comparison visuals for 
 
 ![Candidate Case Analysis](screenshots/case.png)
 
+## Comparative Metrics Analysis
+
+![Comparative Metrics Analysis](screenshots/comparision.jpg)
 
 ## Model Performance Comparison
 
 ![Model Performance Evaluation](screenshots/perf.png)
+
+
 
 ------------------------------------------------------------------------
 
