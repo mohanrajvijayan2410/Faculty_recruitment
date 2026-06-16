@@ -481,7 +481,7 @@ Supported platforms:
 
 ------------------------------------------------------------------------
 
----
+
 
 ## System Requirements
 
@@ -496,7 +496,6 @@ Supported platforms:
 - Browser: Latest Chrome, Edge, Firefox, Safari
 - No database server required for frontend-only mode
 
----
 
 ------------------------------------------------------------------------
 
