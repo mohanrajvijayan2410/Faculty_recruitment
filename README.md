@@ -422,7 +422,7 @@ The repository includes candidate evaluation reports and comparison visuals for 
 
 ## Comparative Metrics Analysis
 
-![Comparative Metrics Analysis](screenshots/comparitive.jpg)
+![Comparative Metrics Analysis](screenshots/comparative.jpg)
 
 ## Model Performance Comparison
 
