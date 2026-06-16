@@ -126,23 +126,26 @@ Build an end-to-end digital recruitment workflow for faculty hiring.
 
 ## Architecture Flow
 
-    [ User Browser ]
-            |
-            v
-    [ React UI Layer ]
-            |
-            v
-    [ Recruitment Context ]
-            |
-            +--> Resume Analyzer
-            +--> Question Loader
-            +--> PDF Generator
-            |
-            v
-    [ Browser localStorage ]
-            |
-            v
-    [ Admin Dashboard ]
+[ User Browser ] 
+      |
+      v
+[ React UI Layer ]
+      |
+      v
+[ Routing / Pages ]
+      |
+      v
+[ Recruitment Context ]
+      |
+      +--> [ Resume Analyzer ]
+      +--> [ Question Loader ]
+      +--> [ PDF Report Generator ]
+      |
+      v
+[ Browser Storage (localStorage) ]
+      |
+      v
+[ Admin Dashboard Visualization ]
 
 ------------------------------------------------------------------------
 
@@ -256,10 +259,13 @@ https://drive.google.com/file/d/1Kjc71bvCJIMp842jGN7ySobfOKDh7LKv/view?usp=shari
 
 # API Documentation
 
-This project does not expose backend APIs.
+The workflow is implemented entirely in the browser using:
 
-The system uses: - Static assessment files. - Browser localStorage for
-persistence.
+- Static asset fetch for `public/data/technical_questions.xlsx`
+- Static asset fetch for `public/data/psychometric_questions.csv`
+- Browser `localStorage` for candidate persistence
+
+No `POST /api/*` or server-side endpoints are included in this frontend-only implementation.
 
 ------------------------------------------------------------------------
 
@@ -292,19 +298,52 @@ Browser localStorage stores candidate records.
 
 ------------------------------------------------------------------------
 
-# Folder Structure
+## Folder Structure
 
-    public
-     └── data
-          ├── psychometric_questions.csv
-          └── technical_questions.xlsx
 
-    src
-     ├── components
-     ├── context
-     ├── lib
-     ├── pages
-     └── data
+.
+├── public
+│   ├── data
+│   │   ├── psychometric_questions.csv
+│   │   └── technical_questions.xlsx
+│   ├── _redirects
+│   └── robots.txt
+├── src
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── components
+│   │   ├── Navbar.tsx
+│   │   ├── ProtectedRoute.tsx
+│   │   └── ui
+│   ├── context
+│   │   ├── AuthContext.tsx
+│   │   └── RecruitmentContext.tsx
+│   ├── lib
+│   │   ├── pdfGenerator.ts
+│   │   ├── questionLoader.ts
+│   │   ├── resumeAnalyzer.ts
+│   │   └── utils.ts
+│   ├── pages
+│   │   ├── AdminLoginPage.tsx
+│   │   ├── AdminPage.tsx
+│   │   ├── ApplyPage.tsx
+│   │   ├── CareersPage.tsx
+│   │   ├── HomePage.tsx
+│   │   ├── PsychometricTestPage.tsx
+│   │   ├── ResumeAnalysisPage.tsx
+│   │   ├── ResultsPage.tsx
+│   │   ├── TechnicalTestPage.tsx
+│   │   └── NotFound.tsx
+│   ├── data
+│   │   └── questions.ts
+│   ├── hooks
+│   └── styles
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── bun.lockb
+
 
 ------------------------------------------------------------------------
 
