@@ -481,18 +481,22 @@ Supported platforms:
 
 ------------------------------------------------------------------------
 
-# System Requirements
+---
 
-## Hardware
+## System Requirements
 
--   Dual-core CPU
--   4 GB RAM
+### Hardware
+- Processor: Dual-core CPU
+- RAM: 4 GB minimum
+- Storage: 200 MB free disk space
 
-## Software
+### Software
+- Operating System: Windows, macOS, Linux
+- Node.js: v18+ recommended
+- Browser: Latest Chrome, Edge, Firefox, Safari
+- No database server required for frontend-only mode
 
--   Node.js v18+
--   Modern browser
+---
 
 ------------------------------------------------------------------------
-
 
