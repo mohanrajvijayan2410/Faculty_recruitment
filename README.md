@@ -409,12 +409,21 @@ Storage:
 
 # Results
 
-The system produces: 
-- Resume score.
-- Technical score.
-- Psychometric score.
-- Final recommendation.
-- PDF evaluation report.
+The repository includes candidate evaluation reports and comparison visuals for the project.
+
+## Candidate Shortlisting Evaluation
+
+![Candidate Shortlisting Results](screenshots/result.png)
+
+
+## Candidate Score Breakdown
+
+![Candidate Case Analysis](screenshots/case.png)
+
+
+## Model Performance Comparison
+
+![Model Performance Evaluation](screenshots/perf.png)
 
 ------------------------------------------------------------------------
 
