@@ -381,29 +381,6 @@ npm run build
 5.  View final report.
 6.  Admin reviews dashboard.
 
-------------------------------------------------------------------------
-
-# Configuration
-
-Files: 
-- vite.config.ts 
-- tailwind.config.ts
-- tsconfig.json
-- package.json
-
-Storage: 
-- admin_session
-- candidate_history
-
-------------------------------------------------------------------------
-
-# Testing
-
--   Candidate workflow testing.
--   Resume validation.
--   Assessment scoring verification.
--   PDF report testing.
--   Dashboard testing.
 
 ------------------------------------------------------------------------
 
