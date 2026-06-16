@@ -409,8 +409,12 @@ Storage:
 
 # Results
 
-The system produces: - Resume score. - Technical score. - Psychometric
-score. - Final recommendation. - PDF evaluation report.
+The system produces: 
+- Resume score.
+- Technical score.
+- Psychometric score.
+- Final recommendation.
+- PDF evaluation report.
 
 ------------------------------------------------------------------------
 
