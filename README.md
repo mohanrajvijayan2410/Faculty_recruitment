@@ -12,7 +12,7 @@ https://drive.google.com/drive/folders/1ce5eOycBV3gvPSAyXLM8hvEdEAUD2Qmn?usp=sha
 ## Psychometric and Technical Questions
 
 Psychometric Questions:
-https://docs.google.com/spreadsheets/d/1JvZWK5LzfQiriX3lQFOM4Gci1EP7C1kpdXioRtmCCNc/edit?usp=sharing
+https://drive.google.com/file/d/1pwuxcAm-xKwMhaTQ1se1G55vtIWz19GJ/view?usp=sharing
 
 Technical Questions:
 https://docs.google.com/spreadsheets/d/1G6a6SJgLDzLPdkw8Z3VzvaxDUWzOZ_9A/edit?usp=sharing
