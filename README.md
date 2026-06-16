@@ -303,7 +303,7 @@ Browser localStorage stores candidate records.
 
 ## Folder Structure
 
-
+```
 .
 ├── public
 │   ├── data
@@ -347,7 +347,7 @@ Browser localStorage stores candidate records.
 ├── tailwind.config.ts
 └── bun.lockb
 
-
+```
 ------------------------------------------------------------------------
 
 # Installation Guide
