@@ -473,8 +473,11 @@ The repository includes candidate evaluation reports and comparison visuals for 
 
 # Deployment
 
-Supported platforms: - Vercel - Netlify - GitHub Pages - Cloudflare
-Pages
+Supported platforms: 
+- Vercel
+- Netlify
+- GitHub Pages
+- Cloudflare Pages
 
 ------------------------------------------------------------------------
 
