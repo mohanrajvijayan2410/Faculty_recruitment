@@ -385,10 +385,15 @@ npm run build
 
 # Configuration
 
-Files: - vite.config.ts - tailwind.config.ts - tsconfig.json -
-package.json
+Files: 
+- vite.config.ts 
+- tailwind.config.ts
+- tsconfig.json
+- package.json
 
-Storage: - admin_session - candidate_history
+Storage: 
+- admin_session
+- candidate_history
 
 ------------------------------------------------------------------------
 
