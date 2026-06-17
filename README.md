@@ -4,6 +4,7 @@ AI-enabled faculty recruitment platform for automated resume evaluation,
 technical assessment, psychometric screening, and administrative
 decision support.
 
+hostage link: https://faculty-recruit.netlify.app/
 ## Dataset
 
 Resume Dataset:
